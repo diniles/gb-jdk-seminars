@@ -10,10 +10,10 @@ public class GameWindow extends JFrame {
     private static final int HEIGHT = 507;
 
     JButton btnStart, btnExit;
-    SettingWindow settingWindow;
+    SettingsWindow settingWindow;
     Map map;
 
-    GameWindow(){
+    GameWindow() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
         setLocationRelativeTo(null);
@@ -22,7 +22,7 @@ public class GameWindow extends JFrame {
         setResizable(false);
         btnStart = new JButton("New Game");
         btnExit = new JButton("Exit");
-        settingWindow = new SettingWindow(this);
+        settingWindow = new SettingsWindow(this);
         map = new Map();
 
         btnExit.addActionListener(new ActionListener() {
@@ -49,7 +49,7 @@ public class GameWindow extends JFrame {
         setVisible(true);
     }
 
-    void startNewGame(int mode, int sizeX, int sizeY, int winLen){
+    void startNewGame(int mode, int sizeX, int sizeY, int winLen) {
         map.startNewGame(mode, sizeX, sizeY, winLen);
     }
 }
