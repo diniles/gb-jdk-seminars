@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: gb jdk initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/seminar1/GameWindow.java" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar1 class GameWindow">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/seminar1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695835792374</updated>
-      <workItem from="1695835793364" duration="247000" />
+      <workItem from="1695835793364" duration="289000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -73,7 +72,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695835935755</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feat: seminar1 class GameWindow">
+      <option name="closed" value="true" />
+      <created>1695836062304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695836062304</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init: gb jdk initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init: gb jdk initial commit" />
+    <MESSAGE value="Feat: seminar1 class GameWindow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar1 class GameWindow" />
   </component>
 </project>
