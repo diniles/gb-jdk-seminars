@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar1 class GameWindow">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/seminar1/Main.java" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar1 class Main">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/seminar1/Map.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,9 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -62,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695835792374</updated>
-      <workItem from="1695835793364" duration="289000" />
+      <workItem from="1695835793364" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -80,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695836062304</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Feat: seminar1 class Main">
+      <option name="closed" value="true" />
+      <created>1695836092388</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695836092388</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +99,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init: gb jdk initial commit" />
     <MESSAGE value="Feat: seminar1 class GameWindow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar1 class GameWindow" />
+    <MESSAGE value="Feat: seminar1 class Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar1 class Main" />
   </component>
 </project>
