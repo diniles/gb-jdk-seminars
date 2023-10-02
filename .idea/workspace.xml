@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: seminar 1 homework">
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 1 homework Main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/Server.java" afterDir="false" />
     </list>
@@ -101,7 +101,7 @@
       <updated>1695835792374</updated>
       <workItem from="1695835793364" duration="1855000" />
       <workItem from="1695882324439" duration="9000" />
-      <workItem from="1696241473840" duration="9282000" />
+      <workItem from="1696241473840" duration="11451000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -191,7 +191,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696264709495</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Feat: seminar 1 homework Server">
+      <option name="closed" value="true" />
+      <created>1696266734309</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696266734309</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Feat: seminar 1 homework Main">
+      <option name="closed" value="true" />
+      <created>1696266847176</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696266847176</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +222,8 @@
     <MESSAGE value="Refactor: seminar1 class GameWindow" />
     <MESSAGE value="Refactor: seminar1 class SettingsWindow" />
     <MESSAGE value="Init: seminar 1 homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init: seminar 1 homework" />
+    <MESSAGE value="Feat: seminar 1 homework Server" />
+    <MESSAGE value="Feat: seminar 1 homework Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 1 homework Main" />
   </component>
 </project>
