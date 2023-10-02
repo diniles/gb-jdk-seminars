@@ -4,10 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Server extends JFrame {
-    public static final int WIDTH = 640;
-    public static final int HEIGHT = 480;
+    public static final int WIDTH = 300;
+    public static final int HEIGHT = 200;
 
     JButton btnStart, btnStop;
+    JTextArea chatWindow;
 
     Server() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -17,27 +18,32 @@ public class Server extends JFrame {
         setResizable((true));
 
         add(createMainPanel());
+        setVisible(true);
     }
 
     private Component createMainPanel() {
-        JPanel panel = new JPanel(new GridLayout(2, 1));
+        JPanel panel = new JPanel(new BorderLayout());
         panel.add(createChatPanel());
-        panel.add(createButtonsPanel());
+        panel.add(createButtonsPanel(), BorderLayout.SOUTH);
+
         return panel;
     }
 
     private Component createChatPanel() {
-        JPanel panel = new JPanel();
-        JTextArea chatWindow = new JTextArea();
+        chatWindow = new JTextArea();
         chatWindow.setEditable(false);
         chatWindow.setLineWrap(true);
-        JScrollPane scrollChatWindow = new JScrollPane(chatWindow);
-
-        panel.add(scrollChatWindow);
-        return panel;
+        chatWindow.setWrapStyleWord(true);
+        return new JScrollPane(chatWindow);
     }
 
     private Component createButtonsPanel() {
+        JPanel panel = new JPanel(new GridLayout(1, 2));
+        btnStart = new JButton("Start Server");
+        btnStop = new JButton("Stop Server");
 
+        panel.add(btnStart);
+        panel.add(btnStop);
+        return panel;
     }
 }
