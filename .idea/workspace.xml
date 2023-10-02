@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Refactor: seminar1 class GameWindow">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/seminar1/SettingsWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/seminar1/SettingsWindow.java" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Refactor: seminar1 class SettingsWindow">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <updated>1695835792374</updated>
       <workItem from="1695835793364" duration="1855000" />
       <workItem from="1695882324439" duration="9000" />
-      <workItem from="1696241473840" duration="7271000" />
+      <workItem from="1696241473840" duration="7612000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -145,7 +144,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696242056502</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Refactor: seminar1 class SettingsWindow">
+      <option name="closed" value="true" />
+      <created>1696264275705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696264275705</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Refactor: seminar1 class SettingsWindow">
+      <option name="closed" value="true" />
+      <created>1696264430300</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696264430300</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +173,7 @@
     <MESSAGE value="Feat: seminar1 class Map" />
     <MESSAGE value="Feat: seminar1 class SettingsWindow" />
     <MESSAGE value="Refactor: seminar1 class GameWindow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor: seminar1 class GameWindow" />
+    <MESSAGE value="Refactor: seminar1 class SettingsWindow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: seminar1 class SettingsWindow" />
   </component>
 </project>
