@@ -1,4 +1,4 @@
-package ru.gb.homework1;
+package ru.gb.homework1.gui;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,7 +10,7 @@ public class Server extends JFrame {
     JButton btnStart, btnStop;
     JTextArea chatWindow;
 
-    Server() {
+    public Server() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
         setLocationRelativeTo(null);
