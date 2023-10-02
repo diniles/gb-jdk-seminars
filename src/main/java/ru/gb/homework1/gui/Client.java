@@ -19,7 +19,7 @@ public class Client extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
         setLocationRelativeTo(null);
-        setTitle("Chat Server");
+        setTitle("Chat Client");
         setResizable((true));
 
         add(createMainPanel());
