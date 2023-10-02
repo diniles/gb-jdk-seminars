@@ -1,11 +1,7 @@
 package ru.gb.seminar1;
 
 import javax.swing.*;
-import javax.swing.event.ChangeEvent;
-import javax.swing.event.ChangeListener;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class SettingsWindow extends JFrame {
     public static final String BTN_START = "Start new game";
@@ -53,12 +49,9 @@ public class SettingsWindow extends JFrame {
 
     private Component createButtonStart() {
         btnStart = new JButton(BTN_START);
-        btnStart.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                setVisible(false);
-                startGame();
-            }
+        btnStart.addActionListener(e -> {
+            setVisible(false);
+            startGame();
         });
         return btnStart;
     }
@@ -96,13 +89,10 @@ public class SettingsWindow extends JFrame {
         Label title = new Label(LABEL_CHOICE_SIZE);
         labelCurSize = new Label(SIZE_PREFIX + MIN_SIZE);
         sliderSize = new JSlider(MIN_SIZE, MAX_SIZE, MIN_SIZE);
-        sliderSize.addChangeListener(new ChangeListener() {
-            @Override
-            public void stateChanged(ChangeEvent e) {
-                int curSize = sliderSize.getValue();
-                labelCurSize.setText(SIZE_PREFIX + curSize);
-                sliderWin.setMaximum(curSize);
-            }
+        sliderSize.addChangeListener(e -> {
+            int curSize = sliderSize.getValue();
+            labelCurSize.setText(SIZE_PREFIX + curSize);
+            sliderWin.setMaximum(curSize);
         });
 
         panel.add(title);
@@ -116,12 +106,7 @@ public class SettingsWindow extends JFrame {
         Label title = new Label(LABEL_CHOICE_WIN_LENGTH);
         labelWinLength = new Label(WIN_LENGTH_PREFIX + MIN_SIZE);
         sliderWin = new JSlider(MIN_SIZE, MAX_SIZE, MIN_SIZE);
-        sliderWin.addChangeListener(new ChangeListener() {
-            @Override
-            public void stateChanged(ChangeEvent e) {
-                labelWinLength.setText(SIZE_PREFIX + sliderWin.getValue());
-            }
-        });
+        sliderWin.addChangeListener(e -> labelWinLength.setText(SIZE_PREFIX + sliderWin.getValue()));
 
         panel.add(title);
         panel.add(labelWinLength);
