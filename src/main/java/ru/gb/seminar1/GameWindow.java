@@ -2,8 +2,6 @@ package ru.gb.seminar1;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class GameWindow extends JFrame {
     private static final int WIDTH = 555;
@@ -17,27 +15,17 @@ public class GameWindow extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
         setLocationRelativeTo(null);
-
         setTitle("TicTacToe");
         setResizable(false);
+
         btnStart = new JButton("New Game");
         btnExit = new JButton("Exit");
         settingWindow = new SettingsWindow(this);
         map = new Map();
 
-        btnExit.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                System.exit(0);
-            }
-        });
+        btnExit.addActionListener(e -> System.exit(0));
 
-        btnStart.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                settingWindow.setVisible(true);
-            }
-        });
+        btnStart.addActionListener(e -> settingWindow.setVisible(true));
 
         JPanel panBottom = new JPanel(new GridLayout(1, 2));
         panBottom.add(btnStart);
