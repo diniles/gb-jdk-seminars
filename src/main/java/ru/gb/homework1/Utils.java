@@ -11,7 +11,6 @@ public class Utils {
     }
 
     public static String loginData(String name) {
-        System.out.println(currentDateTime());
-        return String.format("User " + name + ", logged at " + currentDateTime());
+        return String.format("User %s , logged at %s\n", name, currentDateTime());
     }
 }
