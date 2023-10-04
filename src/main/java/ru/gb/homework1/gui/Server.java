@@ -7,8 +7,9 @@ public class Server extends JFrame {
     public static final int WIDTH = 300;
     public static final int HEIGHT = 200;
 
+    Server srv;
     JButton btnStart, btnStop;
-    JTextArea chatWindow;
+    public JTextArea chatWindow;
 
     public Server() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -16,7 +17,6 @@ public class Server extends JFrame {
         setLocation(400, 400);
         setTitle("Chat Server");
         setResizable((true));
-
         add(createMainPanel());
         setVisible(true);
     }
@@ -25,13 +25,12 @@ public class Server extends JFrame {
         JPanel panel = new JPanel(new BorderLayout());
         panel.add(createChatPanel());
         panel.add(createButtonsPanel(), BorderLayout.SOUTH);
-
         return panel;
     }
 
-    private Component createChatPanel() {
+    public Component createChatPanel() {
         chatWindow = new JTextArea();
-        chatWindow.setEditable(false);
+        chatWindow.setEditable(true);
         chatWindow.setLineWrap(true);
         chatWindow.setWrapStyleWord(true);
         return new JScrollPane(chatWindow);
@@ -41,7 +40,6 @@ public class Server extends JFrame {
         JPanel panel = new JPanel(new GridLayout(1, 2));
         btnStart = new JButton("Start Server");
         btnStop = new JButton("Stop Server");
-
         panel.add(btnStart);
         panel.add(btnStop);
         return panel;

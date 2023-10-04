@@ -16,11 +16,13 @@ public class Client extends JFrame {
     public static final String PASSWORD = "12345";
     public static final String LOGIN_DATA = "";
 
+    Server srv;
     JButton btnLogin, btnSendMsg;
     JTextField tfldIP, tfldPort, tfldName, tfldPassword, tfldMsg;
     JTextArea chatWindow;
 
-    public Client() {
+    public Client(Server srv) {
+        this.srv = srv;
         setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
         setLocationRelativeTo(null);
@@ -55,6 +57,7 @@ public class Client extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println(Utils.loginData(NAME));
+                srv.chatWindow.append(Utils.loginData(NAME));
                 tfldIP.setEnabled(false);
                 tfldPort.setEnabled(false);
                 tfldName.setEnabled(false);
@@ -64,6 +67,7 @@ public class Client extends JFrame {
         });
         return panel;
     }
+
 
     private Component createChatWindowPanel() {
         chatWindow = new JTextArea();
