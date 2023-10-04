@@ -56,7 +56,6 @@ public class Client extends JFrame {
         btnLogin.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println(Utils.loginData(NAME));
                 srv.chatWindow.append(Utils.loginData(NAME));
                 tfldIP.setEnabled(false);
                 tfldPort.setEnabled(false);
@@ -67,7 +66,6 @@ public class Client extends JFrame {
         });
         return panel;
     }
-
 
     private Component createChatWindowPanel() {
         chatWindow = new JTextArea();
@@ -80,9 +78,27 @@ public class Client extends JFrame {
     private Component createBottomPanel() {
         JPanel panel = new JPanel(new BorderLayout());
         tfldMsg = new JTextField();
+        tfldMsg.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String msg = tfldMsg.getText() + "\n";
+                tfldMsg.setText("");
+                chatWindow.append(msg);
+                srv.chatWindow.append(msg);
+            }
+        });
         btnSendMsg = new JButton("Send");
         panel.add(tfldMsg, BorderLayout.CENTER);
         panel.add(btnSendMsg, BorderLayout.EAST);
+        btnSendMsg.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                String msg = tfldMsg.getText() + "\n";
+                tfldMsg.setText("");
+                chatWindow.append(msg);
+                srv.chatWindow.append(msg);
+            }
+        });
         return panel;
     }
 }

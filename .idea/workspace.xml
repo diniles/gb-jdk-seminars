@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 1 homework Client login button">
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 1 homework Client">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/gui/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/gui/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/gui/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/gui/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +102,7 @@
       <workItem from="1695835793364" duration="1855000" />
       <workItem from="1695882324439" duration="9000" />
       <workItem from="1696241473840" duration="13817000" />
-      <workItem from="1696422613196" duration="4549000" />
+      <workItem from="1696422613196" duration="5607000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -283,7 +280,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696424358289</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Feat: seminar 1 homework loginData">
+      <option name="closed" value="true" />
+      <created>1696427246909</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1696427246909</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Feat: seminar 1 homework Client">
+      <option name="closed" value="true" />
+      <created>1696427271021</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1696427271021</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,10 +313,11 @@
     <MESSAGE value="Init: seminar 1 homework" />
     <MESSAGE value="Feat: seminar 1 homework Main" />
     <MESSAGE value="Refactor: seminar 1 homework package gui" />
-    <MESSAGE value="Feat: seminar 1 homework Client" />
     <MESSAGE value="Feat: seminar 1 homework Server" />
     <MESSAGE value="Feat: seminar 1 homework Utils loginData" />
     <MESSAGE value="Feat: seminar 1 homework Client login button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 1 homework Client login button" />
+    <MESSAGE value="Feat: seminar 1 homework loginData" />
+    <MESSAGE value="Feat: seminar 1 homework Client" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 1 homework Client" />
   </component>
 </project>
