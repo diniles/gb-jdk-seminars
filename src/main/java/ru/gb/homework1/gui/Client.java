@@ -16,7 +16,7 @@ public class Client extends JFrame {
     JTextArea chatWindow;
 
     public Client() {
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
         setLocationRelativeTo(null);
         setTitle("Chat Client");
