@@ -4,8 +4,6 @@ import ru.gb.homework1.Utils;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class Client extends JFrame {
     public static final int WIDTH = 300;
@@ -14,7 +12,6 @@ public class Client extends JFrame {
     public static final String PORT = "8189";
     public static final String NAME = "dl";
     public static final String PASSWORD = "12345";
-    public static final String LOGIN_DATA = "";
 
     Server srv;
     JButton btnLogin, btnSendMsg;
@@ -53,16 +50,13 @@ public class Client extends JFrame {
         panel.add(tfldName);
         panel.add(tfldPassword);
         panel.add(btnLogin);
-        btnLogin.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                srv.chatWindow.append(Utils.loginData(NAME));
-                tfldIP.setEnabled(false);
-                tfldPort.setEnabled(false);
-                tfldName.setEnabled(false);
-                tfldPassword.setEnabled(false);
-                btnLogin.setEnabled(false);
-            }
+        btnLogin.addActionListener(e -> {
+            srv.chatWindow.append(Utils.loginData(NAME));
+            tfldIP.setEnabled(false);
+            tfldPort.setEnabled(false);
+            tfldName.setEnabled(false);
+            tfldPassword.setEnabled(false);
+            btnLogin.setEnabled(false);
         });
         return panel;
     }
@@ -78,26 +72,20 @@ public class Client extends JFrame {
     private Component createBottomPanel() {
         JPanel panel = new JPanel(new BorderLayout());
         tfldMsg = new JTextField();
-        tfldMsg.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String msg = tfldMsg.getText() + "\n";
-                tfldMsg.setText("");
-                chatWindow.append(msg);
-                srv.chatWindow.append(msg);
-            }
+        tfldMsg.addActionListener(e -> {
+            String msg = tfldMsg.getText() + "\n";
+            tfldMsg.setText("");
+            chatWindow.append(msg);
+            srv.chatWindow.append(msg);
         });
         btnSendMsg = new JButton("Send");
         panel.add(tfldMsg, BorderLayout.CENTER);
         panel.add(btnSendMsg, BorderLayout.EAST);
-        btnSendMsg.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                String msg = tfldMsg.getText() + "\n";
-                tfldMsg.setText("");
-                chatWindow.append(msg);
-                srv.chatWindow.append(msg);
-            }
+        btnSendMsg.addActionListener(e -> {
+            String msg = tfldMsg.getText() + "\n";
+            tfldMsg.setText("");
+            chatWindow.append(msg);
+            srv.chatWindow.append(msg);
         });
         return panel;
     }

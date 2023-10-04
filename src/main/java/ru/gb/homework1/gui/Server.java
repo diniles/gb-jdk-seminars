@@ -4,14 +4,11 @@ import ru.gb.homework1.Utils;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class Server extends JFrame {
     public static final int WIDTH = 300;
     public static final int HEIGHT = 200;
 
-    Server srv;
     JButton btnStart, btnStop;
     public JTextArea chatWindow;
 
@@ -45,21 +42,15 @@ public class Server extends JFrame {
         btnStart = new JButton("Start Server");
         btnStop = new JButton("Stop Server");
         panel.add(btnStart);
-        btnStart.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                Utils.readFromFile(chatWindow);
-                System.out.println("Server started!");
-            }
+        btnStart.addActionListener(e -> {
+            Utils.readFromFile(chatWindow);
+            System.out.println("Server started!");
         });
         panel.add(btnStop);
-        btnStop.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                Utils.saveToFile(chatWindow.getText());
-                System.out.println("Server stopped!");
-                System.exit(0);
-            }
+        btnStop.addActionListener(e -> {
+            Utils.saveToFile(chatWindow.getText());
+            System.out.println("Server stopped!");
+            System.exit(0);
         });
         return panel;
     }
