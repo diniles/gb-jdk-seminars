@@ -1,7 +1,11 @@
 package ru.gb.homework1.gui;
 
+import ru.gb.homework1.Utils;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Client extends JFrame {
     public static final int WIDTH = 300;
@@ -10,6 +14,7 @@ public class Client extends JFrame {
     public static final String PORT = "8189";
     public static final String NAME = "dl";
     public static final String PASSWORD = "12345";
+    public static final String LOGIN_DATA = "";
 
     JButton btnLogin, btnSendMsg;
     JTextField tfldIP, tfldPort, tfldName, tfldPassword, tfldMsg;
@@ -21,7 +26,6 @@ public class Client extends JFrame {
         setLocationRelativeTo(null);
         setTitle("Chat Client");
         setResizable((true));
-
         add(createMainPanel());
         setVisible(true);
     }
@@ -47,6 +51,12 @@ public class Client extends JFrame {
         panel.add(tfldName);
         panel.add(tfldPassword);
         panel.add(btnLogin);
+        btnLogin.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println(Utils.loginData(NAME));
+            }
+        });
         return panel;
     }
 
