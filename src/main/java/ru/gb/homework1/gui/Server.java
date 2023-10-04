@@ -13,7 +13,7 @@ public class Server extends JFrame {
     public Server() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
-        setLocationRelativeTo(null);
+        setLocation(400, 400);
         setTitle("Chat Server");
         setResizable((true));
 
