@@ -1,9 +1,7 @@
 package ru.gb.homework1;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import javax.swing.*;
+import java.io.*;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -26,6 +24,20 @@ public class Utils {
             System.out.println("Text saved to file successfully.");
         } catch (IOException e) {
             System.out.println("Error saving text to file: " + e.getMessage());
+        }
+    }
+
+    public static void readFromFile(JTextArea chat) {
+        File file = new File("chatlog.txt");
+        try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
+            StringBuilder content = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                content.append(line).append("\n");
+            }
+            chat.setText(content.toString());
+        } catch (IOException e) {
+            System.out.println("Error reading file: " + e.getMessage());
         }
     }
 

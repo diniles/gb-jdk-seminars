@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 1 homework Client send message">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 1 homework write log to file">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/gui/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/gui/Server.java" afterDir="false" />
     </list>
@@ -103,7 +102,7 @@
       <workItem from="1695835793364" duration="1855000" />
       <workItem from="1695882324439" duration="9000" />
       <workItem from="1696241473840" duration="13817000" />
-      <workItem from="1696422613196" duration="6772000" />
+      <workItem from="1696422613196" duration="7077000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -305,7 +304,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696428335385</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Feat: seminar 1 homework write log to file">
+      <option name="closed" value="true" />
+      <created>1696429485502</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429485502</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Feat: seminar 1 homework write log to file">
+      <option name="closed" value="true" />
+      <created>1696429493228</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1696429493228</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,6 +343,7 @@
     <MESSAGE value="Feat: seminar 1 homework loginData" />
     <MESSAGE value="Feat: seminar 1 homework Client" />
     <MESSAGE value="Feat: seminar 1 homework Client send message" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 1 homework Client send message" />
+    <MESSAGE value="Feat: seminar 1 homework write log to file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 1 homework write log to file" />
   </component>
 </project>

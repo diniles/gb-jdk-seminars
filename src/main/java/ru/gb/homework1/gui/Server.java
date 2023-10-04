@@ -45,6 +45,13 @@ public class Server extends JFrame {
         btnStart = new JButton("Start Server");
         btnStop = new JButton("Stop Server");
         panel.add(btnStart);
+        btnStart.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Utils.readFromFile(chatWindow);
+                System.out.println("Server started!");
+            }
+        });
         panel.add(btnStop);
         btnStop.addActionListener(new ActionListener() {
             @Override
