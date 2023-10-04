@@ -55,6 +55,11 @@ public class Client extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 System.out.println(Utils.loginData(NAME));
+                tfldIP.setEnabled(false);
+                tfldPort.setEnabled(false);
+                tfldName.setEnabled(false);
+                tfldPassword.setEnabled(false);
+                btnLogin.setEnabled(false);
             }
         });
         return panel;
