@@ -1,7 +1,11 @@
 package ru.gb.homework1.gui;
 
+import ru.gb.homework1.Utils;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Server extends JFrame {
     public static final int WIDTH = 300;
@@ -28,7 +32,7 @@ public class Server extends JFrame {
         return panel;
     }
 
-    public Component createChatPanel() {
+    private Component createChatPanel() {
         chatWindow = new JTextArea();
         chatWindow.setEditable(true);
         chatWindow.setLineWrap(true);
@@ -42,6 +46,14 @@ public class Server extends JFrame {
         btnStop = new JButton("Stop Server");
         panel.add(btnStart);
         panel.add(btnStop);
+        btnStop.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Utils.saveToFile(chatWindow.getText());
+                System.out.println("Server stopped!");
+                System.exit(0);
+            }
+        });
         return panel;
     }
 }
