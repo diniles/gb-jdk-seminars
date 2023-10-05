@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 1 homework read log from file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatlog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chatlog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/gui/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/gui/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/gui/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework1/gui/Server.java" afterDir="false" />
-    </list>
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Refactor: seminar 1 homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,7 +99,7 @@
       <workItem from="1695835793364" duration="1855000" />
       <workItem from="1695882324439" duration="9000" />
       <workItem from="1696241473840" duration="13817000" />
-      <workItem from="1696422613196" duration="7449000" />
+      <workItem from="1696422613196" duration="7632000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -331,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696429779818</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Refactor: seminar 1 homework">
+      <option name="closed" value="true" />
+      <created>1696430104749</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1696430104749</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +358,7 @@
     <MESSAGE value="Feat: seminar 1 homework Client send message" />
     <MESSAGE value="Feat: seminar 1 homework write log to file" />
     <MESSAGE value="Feat: seminar 1 homework read log from file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 1 homework read log from file" />
+    <MESSAGE value="Refactor: seminar 1 homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: seminar 1 homework" />
   </component>
 </project>
