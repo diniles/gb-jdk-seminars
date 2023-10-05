@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: seminar 2 homework ClientGUI">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Main.java" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: seminar 2 homework Main">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/ServerWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/ServerWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ru.gb.homework1.Main">
+  <component name="RunManager" selected="Application.ru.gb.homework2.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.seminar1.Main" />
       <module name="jdk-seminars" />
@@ -83,8 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.gb.homework2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework2.Main" />
+      <module name="jdk-seminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.homework2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.gb.homework2.Main" />
         <item itemvalue="Application.ru.gb.homework1.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -102,7 +117,7 @@
       <workItem from="1695882324439" duration="9000" />
       <workItem from="1696241473840" duration="13817000" />
       <workItem from="1696422613196" duration="7632000" />
-      <workItem from="1696520990168" duration="3989000" />
+      <workItem from="1696520990168" duration="4344000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -360,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696528426544</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Init: seminar 2 homework Main">
+      <option name="closed" value="true" />
+      <created>1696528500052</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1696528500052</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +412,17 @@
     <MESSAGE value="Init: seminar 2 homework" />
     <MESSAGE value="Init: seminar 2 homework ServerWindow" />
     <MESSAGE value="Init: seminar 2 homework ClientGUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init: seminar 2 homework ClientGUI" />
+    <MESSAGE value="Init: seminar 2 homework Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init: seminar 2 homework Main" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
