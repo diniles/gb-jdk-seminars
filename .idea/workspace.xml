@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: seminar 2 homework ServerWindow">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/ClientGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/ClientGUI.java" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: seminar 2 homework ClientGUI">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,7 @@
       <workItem from="1695882324439" duration="9000" />
       <workItem from="1696241473840" duration="13817000" />
       <workItem from="1696422613196" duration="7632000" />
-      <workItem from="1696520990168" duration="3894000" />
+      <workItem from="1696520990168" duration="3989000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -353,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696527352752</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Init: seminar 2 homework ClientGUI">
+      <option name="closed" value="true" />
+      <created>1696528426544</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1696528426544</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,6 +388,7 @@
     <MESSAGE value="Refactor: seminar 1 homework" />
     <MESSAGE value="Init: seminar 2 homework" />
     <MESSAGE value="Init: seminar 2 homework ServerWindow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init: seminar 2 homework ServerWindow" />
+    <MESSAGE value="Init: seminar 2 homework ClientGUI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init: seminar 2 homework ClientGUI" />
   </component>
 </project>
