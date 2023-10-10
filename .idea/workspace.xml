@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 2 homework class ClientGUI">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/ServerWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/server/ServerWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/client/Client.java" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 2 homework Нихера препода код не работает">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/client/ClientGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/client/ClientGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +119,7 @@
       <workItem from="1696520990168" duration="4449000" />
       <workItem from="1696844235787" duration="83000" />
       <workItem from="1696974954647" duration="3056000" />
-      <workItem from="1696978711851" duration="733000" />
+      <workItem from="1696978711851" duration="1054000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -421,14 +417,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696977142413</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Feat: seminar 2 homework Нихера препода код не работает">
+      <option name="closed" value="true" />
+      <created>1696979584301</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1696979584301</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: seminar1 class Main" />
     <MESSAGE value="Feat: seminar1 class Map" />
     <MESSAGE value="Feat: seminar1 class SettingsWindow" />
     <MESSAGE value="Refactor: seminar1 class GameWindow" />
@@ -453,7 +456,8 @@
     <MESSAGE value="Feat: seminar 2 homework interface ClientView" />
     <MESSAGE value="Feat: seminar 2 homework class Client" />
     <MESSAGE value="Feat: seminar 2 homework class ClientGUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 2 homework class ClientGUI" />
+    <MESSAGE value="Feat: seminar 2 homework Нихера препода код не работает" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 2 homework Нихера препода код не работает" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

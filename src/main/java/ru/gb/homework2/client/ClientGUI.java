@@ -42,7 +42,6 @@ public class ClientGUI extends JFrame implements ClientView {
         appendLog(text);
     }
 
-    @Override
     public void disconnectFromServer() {
         hideHeaderPanel(true);
         client.disconnect();
