@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: seminar 2 homework Main">
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: seminar 2 homework log.txt">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/client/ClientView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/ServerWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/ServerWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +117,9 @@
       <workItem from="1695882324439" duration="9000" />
       <workItem from="1696241473840" duration="13817000" />
       <workItem from="1696422613196" duration="7632000" />
-      <workItem from="1696520990168" duration="4344000" />
+      <workItem from="1696520990168" duration="4449000" />
+      <workItem from="1696844235787" duration="83000" />
+      <workItem from="1696974954647" duration="277000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -383,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696528500052</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Init: seminar 2 homework log.txt">
+      <option name="closed" value="true" />
+      <created>1696528923264</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1696528923264</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +423,8 @@
     <MESSAGE value="Init: seminar 2 homework ServerWindow" />
     <MESSAGE value="Init: seminar 2 homework ClientGUI" />
     <MESSAGE value="Init: seminar 2 homework Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init: seminar 2 homework Main" />
+    <MESSAGE value="Init: seminar 2 homework log.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init: seminar 2 homework log.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
