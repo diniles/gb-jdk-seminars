@@ -1,6 +1,6 @@
 package ru.gb.homework2.client;
 
-import ru.gb.homework2.ServerWindow;
+import ru.gb.homework2.server.ServerWindow;
 
 public class Client {
     private String name;
@@ -13,7 +13,7 @@ public class Client {
         this.server = serverWindow;
     }
 
-    private boolean connectToServer(String name) {
+    public boolean connectToServer(String name) {
         this.name = name;
         if (server.connectUser(this)) {
             printText("Вы успешно подключились!\n");
@@ -29,6 +29,7 @@ public class Client {
         }
     }
 
+    //мы посылаем
     public void sendMessage(String message) {
         if (connected) {
             if (!message.isEmpty()) {
@@ -39,6 +40,7 @@ public class Client {
         }
     }
 
+    //нам посылают
     public void serverAnswer(String answer) {
         printText(answer);
     }

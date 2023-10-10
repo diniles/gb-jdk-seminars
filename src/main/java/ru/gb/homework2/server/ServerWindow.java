@@ -1,4 +1,7 @@
-package ru.gb.homework2;
+package ru.gb.homework2.server;
+
+import ru.gb.homework2.client.Client;
+import ru.gb.homework2.client.ClientGUI;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,7 +15,7 @@ import java.util.List;
 public class ServerWindow extends JFrame {
     public static final int WIDTH = 400;
     public static final int HEIGHT = 300;
-    public static final String LOG_PATH = "log.txt";
+    public static final String LOG_PATH = "src/server/log.txt";
 
     List<ClientGUI> clientGUIList;
 
@@ -20,7 +23,7 @@ public class ServerWindow extends JFrame {
     JTextArea log;
     boolean work;
 
-    ServerWindow() {
+    public ServerWindow() {
         clientGUIList = new ArrayList<>();
 
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -34,29 +37,30 @@ public class ServerWindow extends JFrame {
         setVisible(true);
     }
 
-    public boolean connectUser(ClientGUI clientGUI) {
+    public boolean connectUser(Client client) {
         if (!work) {
             return false;
         }
-        clientGUIList.add(clientGUI);
+        clientGUIList.add(client);
         return true;
     }
 
-    public String getLog() {
+    public String getHistory() {
         return readLog();
     }
 
-    public void disconnectUser(ClientGUI clientGUI) {
+    public void disconnectUser(Client clientGUI) {
         clientGUIList.remove(clientGUI);
         if (clientGUI != null) {
             clientGUI.disconnectFromServer();
         }
     }
 
-    public void message(String text) {
+    public void sendMessage(String text) {
         if (!work) {
             return;
         }
+//        text += "";
         appendLog(text);
         answerAll(text);
         saveInLog(text);
@@ -126,9 +130,10 @@ public class ServerWindow extends JFrame {
                     appendLog("Сервер уже был остановлен");
                 } else {
                     work = false;
-                    for (int i = 0; i < clientGUIList.size(); i++) {
-                        disconnectUser(clientGUIList.get(i));
+                    for (ClientGUI clientGUI : clientGUIList) {
+                        disconnectUser(clientGUI);
                     }
+                    //TODO поправить удаление
                     appendLog("Сервер остановлен!");
                 }
             }

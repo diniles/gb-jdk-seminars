@@ -1,17 +1,14 @@
 package ru.gb.homework2.client;
 
-import ru.gb.homework2.ServerWindow;
+import ru.gb.homework2.server.ServerWindow;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
+import java.awt.event.*;
 
 public class ClientGUI extends JFrame implements ClientView {
     public static final int WIDTH = 400;
-    public static final int HEIGHT = 400;
+    public static final int HEIGHT = 300;
 
     JTextArea log;
     JTextField tfIPAddress, tfPort, tfLogin, tfMessage;
@@ -45,6 +42,7 @@ public class ClientGUI extends JFrame implements ClientView {
         appendLog(text);
     }
 
+    @Override
     public void disconnectFromServer() {
         hideHeaderPanel(true);
         client.disconnect();
@@ -75,7 +73,7 @@ public class ClientGUI extends JFrame implements ClientView {
         tfPort = new JTextField("8189");
         tfLogin = new JTextField("Ivan Ivanovich");
         password = new JPasswordField("123456");
-        btnLogin = new JButton("Login");
+        btnLogin = new JButton("login");
         btnLogin.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -107,27 +105,26 @@ public class ClientGUI extends JFrame implements ClientView {
             public void keyTyped(KeyEvent e) {
                 if (e.getKeyChar() == '\n') {
                     sendMessage();
-                    ;
                 }
             }
         });
-
-        btnSend = new JButton("Send");
+        btnSend = new JButton("send");
         btnSend.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 sendMessage();
             }
         });
-
         panel.add(tfMessage);
         panel.add(btnSend, BorderLayout.EAST);
         return panel;
     }
 
     @Override
-    public int getDefaultCloseOperation() {
-        disconnectFromServer();
-        return super.getDefaultCloseOperation();
+    protected void processWindowEvent(WindowEvent e) {
+        super.processWindowEvent(e);
+        if (e.getID() == WindowEvent.WINDOW_CLOSING) {
+            disconnectFromServer();
+        }
     }
 }
