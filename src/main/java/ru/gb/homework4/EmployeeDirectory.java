@@ -23,6 +23,18 @@ public class EmployeeDirectory {
         return employeesByExperience;
     }
 
+    /**
+     * Метод, который выводит номер телефона сотрудника по имени (может быть список)
+     */
+    public void printEmployeePhoneByName(String name) {
+        for (Employee employee : employees) {
+            if (employee.getName().equalsIgnoreCase(name)) {
+                System.out.println(employee.getPhoneNumber());
+            }
+
+        }
+    }
+
 
     /**
      * Метод добавление нового сотрудника в справочник

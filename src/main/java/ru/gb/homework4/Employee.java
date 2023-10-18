@@ -19,7 +19,7 @@ public class Employee {
         return id;
     }
 
-    public String getPhoneNUmber() {
+    public String getPhoneNumber() {
         return phoneNUmber;
     }
 
