@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Refactor: seminar 2 interface">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/README.md" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: seminar 4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,15 +146,7 @@
       <workItem from="1696978711851" duration="1172000" />
       <workItem from="1697627076935" duration="6646000" />
       <workItem from="1697656754768" duration="90000" />
-      <workItem from="1697656859594" duration="170000" />
-    </task>
-    <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
-      <option name="closed" value="true" />
-      <created>1695835935755</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1695835935755</updated>
+      <workItem from="1697656859594" duration="935000" />
     </task>
     <task id="LOCAL-00002" summary="Feat: seminar1 class GameWindow">
       <option name="closed" value="true" />
@@ -540,14 +532,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697633642391</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Init: seminar 4">
+      <option name="closed" value="true" />
+      <created>1697657032594</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1697657032594</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: seminar 1 homework Client" />
     <MESSAGE value="Feat: seminar 1 homework Client send message" />
     <MESSAGE value="Feat: seminar 1 homework write log to file" />
     <MESSAGE value="Feat: seminar 1 homework read log from file" />
@@ -572,7 +571,8 @@
     <MESSAGE value="Refactor: seminar 3 Calculator methods calls" />
     <MESSAGE value="Feat: seminar 3 Pair" />
     <MESSAGE value="Refactor: seminar 2 interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor: seminar 2 interface" />
+    <MESSAGE value="Init: seminar 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init: seminar 4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
