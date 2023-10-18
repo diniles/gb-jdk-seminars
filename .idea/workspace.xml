@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 2 homework interface">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatlog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chatlog.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/ClientGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/ClientGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/ServerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/ServerGUI.java" afterDir="false" />
-    </list>
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Refactor: seminar 2 homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +125,7 @@
       <workItem from="1696844235787" duration="83000" />
       <workItem from="1696974954647" duration="3056000" />
       <workItem from="1696978711851" duration="1172000" />
-      <workItem from="1697627076935" duration="3751000" />
+      <workItem from="1697627076935" duration="4058000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -469,14 +463,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697630320177</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Refactor: seminar 2 homework">
+      <option name="closed" value="true" />
+      <created>1697631010036</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1697631010036</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Init: seminar 1 homework" />
     <MESSAGE value="Feat: seminar 1 homework Main" />
     <MESSAGE value="Refactor: seminar 1 homework package gui" />
     <MESSAGE value="Feat: seminar 1 homework Server" />
@@ -501,7 +502,8 @@
     <MESSAGE value="Refactor: seminar 1 homework show message method" />
     <MESSAGE value="Refactor: seminar 2 homework classes" />
     <MESSAGE value="Feat: seminar 2 homework interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 2 homework interface" />
+    <MESSAGE value="Refactor: seminar 2 homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: seminar 2 homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
