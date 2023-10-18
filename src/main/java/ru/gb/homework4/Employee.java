@@ -15,6 +15,10 @@ public class Employee {
         idCounter++;
     }
 
+    public int getId() {
+        return id;
+    }
+
     public String getPhoneNUmber() {
         return phoneNUmber;
     }
