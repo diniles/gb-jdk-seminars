@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 4 class EmployeeDirectory">
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Refactor: seminar 4 class Employee constructor">
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/EmployeeDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/EmployeeDirectory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
       <recent name="C:\Users\dl\IdeaProjects\jdk-seminars\src\main\java\ru\gb\homework2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.gb.homework3.Main">
+  <component name="RunManager" selected="Application.ru.gb.homework4.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.seminar1.Main" />
       <module name="jdk-seminars" />
@@ -118,8 +120,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.gb.homework4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework4.Main" />
+      <module name="jdk-seminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.gb.homework4.Main" />
         <item itemvalue="Application.ru.gb.homework3.Main" />
         <item itemvalue="Application.ru.gb.homework2.Main" />
         <item itemvalue="Application.ru.gb.homework1.Main" />
@@ -145,15 +161,7 @@
       <workItem from="1696978711851" duration="1172000" />
       <workItem from="1697627076935" duration="6646000" />
       <workItem from="1697656754768" duration="90000" />
-      <workItem from="1697656859594" duration="1865000" />
-    </task>
-    <task id="LOCAL-00006" summary="Feat: seminar1 class SettingsWindow">
-      <option name="closed" value="true" />
-      <created>1695836317066</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1695836317066</updated>
+      <workItem from="1697656859594" duration="3049000" />
     </task>
     <task id="LOCAL-00007" summary="Refactor: seminar1 class GameWindow">
       <option name="closed" value="true" />
@@ -539,14 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697658672232</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Refactor: seminar 4 class Employee constructor">
+      <option name="closed" value="true" />
+      <created>1697658889899</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1697658889899</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: seminar 1 homework read log from file" />
     <MESSAGE value="Refactor: seminar 1 homework" />
     <MESSAGE value="Init: seminar 2 homework" />
     <MESSAGE value="Init: seminar 2 homework ServerWindow" />
@@ -571,7 +586,8 @@
     <MESSAGE value="Init: seminar 4" />
     <MESSAGE value="Feat: seminar 4 class Employee" />
     <MESSAGE value="Feat: seminar 4 class EmployeeDirectory" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 4 class EmployeeDirectory" />
+    <MESSAGE value="Refactor: seminar 4 class Employee constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: seminar 4 class Employee constructor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
