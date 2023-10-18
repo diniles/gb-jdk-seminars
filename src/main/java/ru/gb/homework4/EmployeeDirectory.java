@@ -35,21 +35,6 @@ public class EmployeeDirectory {
         }
     }
 
-
-    /**
-     * Метод добавление нового сотрудника в справочник
-     */
-    public void addEmployee(Employee employee) {
-        employees.add(employee);
-    }
-
-    public void removeEmployee(int employeeId) {
-        Employee employee = getEmployeeById(employeeId);
-        if (employee != null) {
-            employees.remove(employee);
-        }
-    }
-
     /**
      * Метод, который ищет сотрудника по табельному номеру
      */
@@ -62,7 +47,11 @@ public class EmployeeDirectory {
         return null;
     }
 
-    public List<Employee> geAllEmployees() {
-        return employees;
+    /**
+     * Метод добавление нового сотрудника в справочник
+     */
+    public void addEmployee(Employee employee) {
+        employees.add(employee);
     }
+    
 }

@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 4 class class EmployeeDirectory method getEmployeeByExperience">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/Employee.java" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 4 class class EmployeeDirectory method printEmployeePhoneByName">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/EmployeeDirectory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/EmployeeDirectory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,15 +159,7 @@
       <workItem from="1696978711851" duration="1172000" />
       <workItem from="1697627076935" duration="6646000" />
       <workItem from="1697656754768" duration="90000" />
-      <workItem from="1697656859594" duration="4184000" />
-    </task>
-    <task id="LOCAL-00008" summary="Refactor: seminar1 class SettingsWindow">
-      <option name="closed" value="true" />
-      <created>1696264275705</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1696264275705</updated>
+      <workItem from="1697656859594" duration="4288000" />
     </task>
     <task id="LOCAL-00009" summary="Refactor: seminar1 class SettingsWindow">
       <option name="closed" value="true" />
@@ -556,14 +545,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697660136868</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Feat: seminar 4 class class EmployeeDirectory method printEmployeePhoneByName">
+      <option name="closed" value="true" />
+      <created>1697661090860</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1697661090860</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Init: seminar 2 homework" />
     <MESSAGE value="Init: seminar 2 homework ServerWindow" />
     <MESSAGE value="Init: seminar 2 homework ClientGUI" />
     <MESSAGE value="Init: seminar 2 homework Main" />
@@ -588,7 +584,8 @@
     <MESSAGE value="Feat: seminar 4 class EmployeeDirectory" />
     <MESSAGE value="Refactor: seminar 4 class Employee constructor" />
     <MESSAGE value="Feat: seminar 4 class class EmployeeDirectory method getEmployeeByExperience" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 4 class class EmployeeDirectory method getEmployeeByExperience" />
+    <MESSAGE value="Feat: seminar 4 class class EmployeeDirectory method printEmployeePhoneByName" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 4 class class EmployeeDirectory method printEmployeePhoneByName" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

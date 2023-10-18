@@ -19,6 +19,9 @@ public class Main {
 
         System.out.println("All John's phone numbers");
         employeeDirectory.printEmployeePhoneByName("John");
+
+        System.out.println("Employee with id=10001");
+        System.out.println(employeeDirectory.getEmployeeById(10001));
     }
 
 }
