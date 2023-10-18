@@ -1,13 +1,14 @@
 package ru.gb.homework3;
 
+import static ru.gb.homework3.Calculator.*;
 import static ru.gb.homework3.ArrayComparator.compareArrays;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Sum: " + Calculator.sum(5, 3));
-        System.out.println("Division: " + Calculator.divide(10.0, 2.5));
-        System.out.println("Multiply: " + Calculator.multiply(10, 2.5));
-        System.out.println("Subtract: " + Calculator.subtract(10, 2));
+        System.out.println("Sum: " + sum(5, 3));
+        System.out.println("Division: " + divide(10.0, 2.5));
+        System.out.println("Multiply: " + multiply(10, 2.5));
+        System.out.println("Subtract: " + subtract(10, 2));
 
         Integer[] intArray1 = {1, 2, 3, 4, 5};
         Integer[] intArray2 = {1, 2, 3, 4, 5};
