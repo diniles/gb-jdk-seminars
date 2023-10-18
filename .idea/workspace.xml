@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 3 class Calculator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework3/ArrayComparator.java" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Refactor: seminar 3 Calculator methods calls">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework3/Pair.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +143,7 @@
       <workItem from="1696844235787" duration="83000" />
       <workItem from="1696974954647" duration="3056000" />
       <workItem from="1696978711851" duration="1172000" />
-      <workItem from="1697627076935" duration="5949000" />
+      <workItem from="1697627076935" duration="6340000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -505,15 +505,29 @@
       <option name="project" value="LOCAL" />
       <updated>1697632841475</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Feat: seminar 3 ArrayComparator">
+      <option name="closed" value="true" />
+      <created>1697633266554</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1697633266554</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Refactor: seminar 3 Calculator methods calls">
+      <option name="closed" value="true" />
+      <created>1697633342590</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1697633342590</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: seminar 1 homework Server" />
-    <MESSAGE value="Feat: seminar 1 homework Utils loginData" />
     <MESSAGE value="Feat: seminar 1 homework Client login button" />
     <MESSAGE value="Feat: seminar 1 homework loginData" />
     <MESSAGE value="Feat: seminar 1 homework Client" />
@@ -537,7 +551,9 @@
     <MESSAGE value="Refactor: seminar 2 homework" />
     <MESSAGE value="Init: seminar 3" />
     <MESSAGE value="Feat: seminar 3 class Calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 3 class Calculator" />
+    <MESSAGE value="Feat: seminar 3 ArrayComparator" />
+    <MESSAGE value="Refactor: seminar 3 Calculator methods calls" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: seminar 3 Calculator methods calls" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

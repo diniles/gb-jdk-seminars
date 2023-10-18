@@ -21,9 +21,14 @@ public class Main {
         boolean strArraysEqual = compareArrays(strArray1, strArray2);
         boolean intArraysNotEqual = compareArrays(intArray1, intArray3);
 
-        System.out.println("intArray1 and intArray2 are the same: " + intArraysEqual); // true
-        System.out.println("strArray1 and strArray2 are the same: " + strArraysEqual); // true
-        System.out.println("intArray1 and intArray3 are the same: " + intArraysNotEqual); // false
+        System.out.println("intArray1 and intArray2 are the same: " + intArraysEqual);
+        System.out.println("strArray1 and strArray2 are the same: " + strArraysEqual);
+        System.out.println("intArray1 and intArray3 are the same: " + intArraysNotEqual);
+
+        Pair<Integer, String> pair = new Pair<>(42, "Hello, World!");
+        System.out.println("First element: " + pair.getFirst());
+        System.out.println("Second element: " + pair.getSecond());
+        System.out.println("Pair as a string: " + pair);
     }
 }
 
