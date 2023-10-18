@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 4 class Employee">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/EmployeeDirectory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 4 class EmployeeDirectory">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,15 +145,7 @@
       <workItem from="1696978711851" duration="1172000" />
       <workItem from="1697627076935" duration="6646000" />
       <workItem from="1697656754768" duration="90000" />
-      <workItem from="1697656859594" duration="1780000" />
-    </task>
-    <task id="LOCAL-00005" summary="Feat: seminar1 class SettingsWindow">
-      <option name="closed" value="true" />
-      <created>1695836197952</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1695836197952</updated>
+      <workItem from="1697656859594" duration="1865000" />
     </task>
     <task id="LOCAL-00006" summary="Feat: seminar1 class SettingsWindow">
       <option name="closed" value="true" />
@@ -540,14 +531,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697657944608</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Feat: seminar 4 class EmployeeDirectory">
+      <option name="closed" value="true" />
+      <created>1697658672232</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1697658672232</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: seminar 1 homework write log to file" />
     <MESSAGE value="Feat: seminar 1 homework read log from file" />
     <MESSAGE value="Refactor: seminar 1 homework" />
     <MESSAGE value="Init: seminar 2 homework" />
@@ -572,7 +570,8 @@
     <MESSAGE value="Refactor: seminar 2 interface" />
     <MESSAGE value="Init: seminar 4" />
     <MESSAGE value="Feat: seminar 4 class Employee" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 4 class Employee" />
+    <MESSAGE value="Feat: seminar 4 class EmployeeDirectory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 4 class EmployeeDirectory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
