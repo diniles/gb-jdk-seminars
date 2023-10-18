@@ -55,10 +55,6 @@ public class EmployeeDirectory {
         employees.add(employee);
     }
 
-    public List<Employee> getAllEmployees() {
-        return employees;
-    }
-
     public void forEach(Consumer<Employee> action) {
         employees.forEach(action);
     }
