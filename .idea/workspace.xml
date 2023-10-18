@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Refactor: seminar 2 homework" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: seminar 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework3/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +48,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/dl/IdeaProjects/jdk-seminars/src/main/java/ru/gb/homework2",
+    "last_opened_file_path": "C:/Users/dl/IdeaProjects/jdk-seminars/src/main/java/ru/gb/homework3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,10 +62,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dl\IdeaProjects\jdk-seminars\src\main\java\ru\gb\homework3" />
       <recent name="C:\Users\dl\IdeaProjects\jdk-seminars\src\main\java\ru\gb\homework2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.gb.homework2.Main">
+  <component name="RunManager" selected="Application.ru.gb.homework3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.gb.seminar1.Main" />
       <module name="jdk-seminars" />
@@ -101,8 +106,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ru.gb.homework3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework3.Main" />
+      <module name="jdk-seminars" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.homework3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ru.gb.homework3.Main" />
         <item itemvalue="Application.ru.gb.homework2.Main" />
         <item itemvalue="Application.ru.gb.homework1.Main" />
         <item itemvalue="Application.Main" />
@@ -125,7 +144,7 @@
       <workItem from="1696844235787" duration="83000" />
       <workItem from="1696974954647" duration="3056000" />
       <workItem from="1696978711851" duration="1172000" />
-      <workItem from="1697627076935" duration="4058000" />
+      <workItem from="1697627076935" duration="5592000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -471,14 +490,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697631010036</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Init: seminar 3">
+      <option name="closed" value="true" />
+      <created>1697631285382</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1697631285383</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: seminar 1 homework Main" />
     <MESSAGE value="Refactor: seminar 1 homework package gui" />
     <MESSAGE value="Feat: seminar 1 homework Server" />
     <MESSAGE value="Feat: seminar 1 homework Utils loginData" />
@@ -503,7 +529,8 @@
     <MESSAGE value="Refactor: seminar 2 homework classes" />
     <MESSAGE value="Feat: seminar 2 homework interface" />
     <MESSAGE value="Refactor: seminar 2 homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor: seminar 2 homework" />
+    <MESSAGE value="Init: seminar 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init: seminar 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
