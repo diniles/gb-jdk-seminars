@@ -1,9 +1,11 @@
 package ru.gb.homework2;
 
+import ru.gb.homework1.Utils;
+
 import javax.swing.*;
 import java.awt.*;
 
-public class Client extends JFrame {
+public class ClientGUI extends JFrame implements GUIInterface {
     public static final int WIDTH = 300;
     public static final int HEIGHT = 200;
     public static final String IP = "127.0.0.1";
@@ -11,12 +13,12 @@ public class Client extends JFrame {
     public static final String NAME = "dl";
     public static final String PASSWORD = "12345";
 
-    Server srv;
+    ServerGUI srv;
     JButton btnLogin, btnSendMsg;
     JTextField tfldIP, tfldPort, tfldName, tfldPassword, tfldMsg;
     JTextArea chatWindow;
 
-    public Client(Server srv) {
+    public ClientGUI(ServerGUI srv) {
         this.srv = srv;
         setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
@@ -88,7 +90,8 @@ public class Client extends JFrame {
         return panel;
     }
 
-    public void showMessage(String msg) {
-        chatWindow.append(msg);
+    @Override
+    public void showMessage(String text) {
+        chatWindow.append(text);
     }
 }

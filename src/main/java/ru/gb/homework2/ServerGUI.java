@@ -1,18 +1,18 @@
 package ru.gb.homework2;
 
-import ru.gb.homework2.Utils;
+import ru.gb.homework1.Utils;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class Server extends JFrame {
+public class ServerGUI extends JFrame implements GUIInterface {
     public static final int WIDTH = 300;
     public static final int HEIGHT = 200;
 
     JButton btnStart, btnStop;
     public JTextArea chatWindow;
 
-    public Server() {
+    public ServerGUI() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(WIDTH, HEIGHT);
         setLocation(400, 400);
@@ -55,7 +55,8 @@ public class Server extends JFrame {
         return panel;
     }
 
-    public void showMessage(String msg) {
-        chatWindow.append(msg);
+    @Override
+    public void showMessage(String text) {
+        chatWindow.append(text);
     }
 }

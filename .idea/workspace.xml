@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Refactor: seminar 1 homework show message method">
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Refactor: seminar 2 homework classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/GUIInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatlog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chatlog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/ClientGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/gui/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/gui/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework2/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -96,7 +100,7 @@
       <module name="jdk-seminars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.homework2.client.*" />
+          <option name="PATTERN" value="ru.gb.homework2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,7 +132,7 @@
       <workItem from="1696844235787" duration="83000" />
       <workItem from="1696974954647" duration="3056000" />
       <workItem from="1696978711851" duration="1172000" />
-      <workItem from="1697627076935" duration="654000" />
+      <workItem from="1697627076935" duration="3042000" />
     </task>
     <task id="LOCAL-00001" summary="Init: gb jdk initial commit">
       <option name="closed" value="true" />
@@ -450,14 +454,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697627433236</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Refactor: seminar 2 homework classes">
+      <option name="closed" value="true" />
+      <created>1697627749825</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1697627749825</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refactor: seminar1 class GameWindow" />
     <MESSAGE value="Refactor: seminar1 class SettingsWindow" />
     <MESSAGE value="Init: seminar 1 homework" />
     <MESSAGE value="Feat: seminar 1 homework Main" />
@@ -482,7 +493,8 @@
     <MESSAGE value="Feat: seminar 2 homework Нихера препода код не работает" />
     <MESSAGE value="Feat: seminar 2 homework code after seminar, not work" />
     <MESSAGE value="Refactor: seminar 1 homework show message method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor: seminar 1 homework show message method" />
+    <MESSAGE value="Refactor: seminar 2 homework classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor: seminar 2 homework classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
