@@ -1,7 +1,5 @@
 package ru.gb.homework2;
 
-import ru.gb.homework1.Utils;
-
 import javax.swing.*;
 import java.awt.*;
 
@@ -51,7 +49,7 @@ public class ClientGUI extends JFrame implements GUIInterface {
         panel.add(tfldPassword);
         panel.add(btnLogin);
         btnLogin.addActionListener(e -> {
-            srv.chatWindow.append(Utils.loginData(NAME));
+            srv.showMessage(Utils.loginData(NAME));
             tfldIP.setEnabled(false);
             tfldPort.setEnabled(false);
             tfldName.setEnabled(false);

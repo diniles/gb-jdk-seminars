@@ -1,7 +1,5 @@
 package ru.gb.homework2;
 
-import ru.gb.homework1.Utils;
-
 import javax.swing.*;
 import java.awt.*;
 
