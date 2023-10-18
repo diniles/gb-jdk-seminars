@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: seminar 4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 4 class Employee">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework4/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,23 +145,7 @@
       <workItem from="1696978711851" duration="1172000" />
       <workItem from="1697627076935" duration="6646000" />
       <workItem from="1697656754768" duration="90000" />
-      <workItem from="1697656859594" duration="935000" />
-    </task>
-    <task id="LOCAL-00002" summary="Feat: seminar1 class GameWindow">
-      <option name="closed" value="true" />
-      <created>1695836062304</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1695836062304</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Feat: seminar1 class Main">
-      <option name="closed" value="true" />
-      <created>1695836092388</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1695836092388</updated>
+      <workItem from="1697656859594" duration="1054000" />
     </task>
     <task id="LOCAL-00004" summary="Feat: seminar1 class Map">
       <option name="closed" value="true" />
@@ -540,14 +523,29 @@
       <option name="project" value="LOCAL" />
       <updated>1697657032594</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Feat: seminar 4 class Employee">
+      <option name="closed" value="true" />
+      <created>1697657829173</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1697657829173</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Feat: seminar 4 class Employee">
+      <option name="closed" value="true" />
+      <created>1697657874069</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1697657874069</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: seminar 1 homework Client send message" />
     <MESSAGE value="Feat: seminar 1 homework write log to file" />
     <MESSAGE value="Feat: seminar 1 homework read log from file" />
     <MESSAGE value="Refactor: seminar 1 homework" />
@@ -572,7 +570,8 @@
     <MESSAGE value="Feat: seminar 3 Pair" />
     <MESSAGE value="Refactor: seminar 2 interface" />
     <MESSAGE value="Init: seminar 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init: seminar 4" />
+    <MESSAGE value="Feat: seminar 4 class Employee" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 4 class Employee" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

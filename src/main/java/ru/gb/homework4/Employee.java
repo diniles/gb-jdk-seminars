@@ -2,7 +2,7 @@ package ru.gb.homework4;
 
 public class Employee {
     private static int idCounter = 10000;
-    private int id;
+    private final int id;
     private String phoneNUmber;
     private String name;
     private int experience;
@@ -45,6 +45,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return String.format("id=%d, phone number=%s, name=%s, experience=%d");
+        return String.format("id=%d, phone number=%s, name=%s, experience=%d"
+                , id, phoneNUmber, name, experience);
     }
 }
