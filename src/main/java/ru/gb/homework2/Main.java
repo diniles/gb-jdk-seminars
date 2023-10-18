@@ -1,12 +1,11 @@
 package ru.gb.homework2;
 
-import ru.gb.homework2.client.ClientGUI;
-import ru.gb.homework2.server.ServerWindow;
+import ru.gb.homework2.gui.Client;
+import ru.gb.homework2.gui.Server;
 
 public class Main {
     public static void main(String[] args) {
-        ServerWindow serverWindow = new ServerWindow();
-        new ClientGUI(serverWindow);
-        new ClientGUI(serverWindow);
+        Server srv = new Server();
+        new Client(srv);
     }
 }
