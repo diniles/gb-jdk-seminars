@@ -1,6 +1,4 @@
-package ru.gb.homework2.gui;
-
-import ru.gb.homework2.Utils;
+package ru.gb.homework2;
 
 import javax.swing.*;
 import java.awt.*;

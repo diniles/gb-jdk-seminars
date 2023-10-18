@@ -1,4 +1,4 @@
-package ru.gb.homework2.gui;
+package ru.gb.homework2;
 
 import ru.gb.homework2.Utils;
 
