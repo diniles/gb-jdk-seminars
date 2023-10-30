@@ -71,9 +71,9 @@
       <recent name="C:\Users\dl\IdeaProjects\jdk-seminars\src\main\java\ru\gb\homework2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner">
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.homework5.Runner" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework5.Main" />
       <module name="jdk-seminars" />
       <extension name="coverage">
         <pattern>
@@ -139,7 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Runner" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ru.gb.homework4.Main" />
         <item itemvalue="Application.ru.gb.homework3.Main" />
         <item itemvalue="Application.ru.gb.homework2.Main" />

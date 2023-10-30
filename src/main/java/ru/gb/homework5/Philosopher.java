@@ -39,26 +39,26 @@ public class Philosopher implements Runnable {
 
     private void think() throws InterruptedException {
         long t = System.nanoTime();
-        if (Main.DEBUG) {
+        if (Consts.DEBUG) {
             System.out.println(t + ": " + Thread.currentThread().getName() + " is thinking");
         }
-        if (Main.MAX_WAIT_MS > 0) {
+        if (Consts.MAX_WAIT_MS > 0) {
             Thread.sleep(getRandomInt());
         }
     }
 
     private void eat() throws InterruptedException {
         long t = System.nanoTime();
-        if (Main.DEBUG) {
+        if (Consts.DEBUG) {
             System.out.println(t + ": " + Thread.currentThread().getName() + " is eating");
         }
-        if (Main.MAX_WAIT_MS > 0) {
+        if (Consts.MAX_WAIT_MS > 0) {
             Thread.sleep(getRandomInt());
         }
         eatCount.incrementAndGet();
     }
 
     private int getRandomInt() {
-        return (int) (Math.random() * Main.MAX_WAIT_MS);
+        return (int) (Math.random() * Consts.MAX_WAIT_MS);
     }
 }
