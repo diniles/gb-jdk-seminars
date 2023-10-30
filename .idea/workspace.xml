@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Refactor: seminar 4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/README.md" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: seminar 5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/Fork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/Philosopher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,26 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/dl/IdeaProjects/jdk-seminars/src/main/java/ru/gb/homework5",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.folding",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dl/IdeaProjects/jdk-seminars/src/main/java/ru/gb/homework5&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dl\IdeaProjects\jdk-seminars\src\main\java\ru\gb\homework5" />
@@ -164,14 +165,8 @@
       <workItem from="1697656859594" duration="5205000" />
       <workItem from="1698081238318" duration="18000" />
       <workItem from="1698301806386" duration="65000" />
-    </task>
-    <task id="LOCAL-00012" summary="Feat: seminar 1 homework Server">
-      <option name="closed" value="true" />
-      <created>1696266734309</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1696266734309</updated>
+      <workItem from="1698301888574" duration="1834000" />
+      <workItem from="1698393939760" duration="21000" />
     </task>
     <task id="LOCAL-00013" summary="Feat: seminar 1 homework Main">
       <option name="closed" value="true" />
@@ -557,14 +552,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697661969220</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Init: seminar 5">
+      <option name="closed" value="true" />
+      <created>1698301963253</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1698301963254</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Init: seminar 2 homework log.txt" />
     <MESSAGE value="Feat: seminar 2 homework interface ClientView" />
     <MESSAGE value="Feat: seminar 2 homework class Client" />
     <MESSAGE value="Feat: seminar 2 homework class ClientGUI" />
@@ -589,7 +591,8 @@
     <MESSAGE value="Feat: seminar 4 class class EmployeeDirectory method getEmployeeById" />
     <MESSAGE value="Feat: seminar 4 class class EmployeeDirectory method forEach" />
     <MESSAGE value="Refactor: seminar 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor: seminar 4" />
+    <MESSAGE value="Init: seminar 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init: seminar 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
