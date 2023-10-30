@@ -10,14 +10,14 @@ public class Fork {
 
     public void take() {
         long t = java.lang.System.nanoTime();
-        if (Main.DEBUG) {
+        if (Consts.DEBUG) {
             System.out.println(t + ": Fork " + id + " is taken");
         }
     }
 
     public void put() {
         long t = java.lang.System.nanoTime();
-        if (Main.DEBUG) {
+        if (Consts.DEBUG) {
             System.out.println(t + ": Fork " + id + " is put");
         }
     }
