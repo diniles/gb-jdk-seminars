@@ -1,7 +1,7 @@
 package ru.gb.homework5;
 
 public class Fork {
-    private int id;
+    private final int id;
     private boolean availability = true;
 
     public Fork(int id) {

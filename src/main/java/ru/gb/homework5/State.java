@@ -5,8 +5,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class State {
-    private int philosophersCount;
-    private Philosopher[] philosophers;
+    private final int philosophersCount;
+    private final Philosopher[] philosophers;
 
     private enum PhilosopherState {
         HUNGRY,
@@ -14,10 +14,10 @@ public class State {
         THINKING
     }
 
-    private PhilosopherState[] state;
+    private final PhilosopherState[] state;
 
-    private Lock lock;
-    private Condition[] cond;
+    private final Lock lock;
+    private final Condition[] cond;
 
     public State(Philosopher[] philosophers) {
         this.philosophers = philosophers;
