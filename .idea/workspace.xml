@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Init: seminar 5">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/Fork.java" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 5 class fork">
       <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/Philosopher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,14 +165,7 @@
       <workItem from="1698301806386" duration="65000" />
       <workItem from="1698301888574" duration="1834000" />
       <workItem from="1698393939760" duration="21000" />
-    </task>
-    <task id="LOCAL-00013" summary="Feat: seminar 1 homework Main">
-      <option name="closed" value="true" />
-      <created>1696266847176</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1696266847176</updated>
+      <workItem from="1698676006023" duration="322000" />
     </task>
     <task id="LOCAL-00014" summary="Feat: seminar 1 homework Server">
       <option name="closed" value="true" />
@@ -560,14 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698301963254</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Feat: seminar 5 class fork">
+      <option name="closed" value="true" />
+      <created>1698676253769</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1698676253769</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: seminar 2 homework interface ClientView" />
     <MESSAGE value="Feat: seminar 2 homework class Client" />
     <MESSAGE value="Feat: seminar 2 homework class ClientGUI" />
     <MESSAGE value="Feat: seminar 2 homework Нихера препода код не работает" />
@@ -592,7 +590,8 @@
     <MESSAGE value="Feat: seminar 4 class class EmployeeDirectory method forEach" />
     <MESSAGE value="Refactor: seminar 4" />
     <MESSAGE value="Init: seminar 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init: seminar 5" />
+    <MESSAGE value="Feat: seminar 5 class fork" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 5 class fork" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
