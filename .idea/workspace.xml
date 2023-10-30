@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 5 class fork">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/Philosopher.java" afterDir="false" />
+    <list default="true" id="f9ec0aa0-9bae-4ede-be5d-2ca89001302c" name="Changes" comment="Feat: seminar 5 class State">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/Consts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/Fork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/Fork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/Philosopher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/homework5/State.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +71,13 @@
       <recent name="C:\Users\dl\IdeaProjects\jdk-seminars\src\main\java\ru\gb\homework2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ru.gb.homework4.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.gb.seminar1.Main" />
+  <component name="RunManager" selected="Application.Runner">
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.homework5.Runner" />
       <module name="jdk-seminars" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.seminar1.*" />
+          <option name="PATTERN" value="ru.gb.homework5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.ru.gb.homework4.Main" />
         <item itemvalue="Application.ru.gb.homework3.Main" />
         <item itemvalue="Application.ru.gb.homework2.Main" />
         <item itemvalue="Application.ru.gb.homework1.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,23 +170,7 @@
       <workItem from="1698301806386" duration="65000" />
       <workItem from="1698301888574" duration="1834000" />
       <workItem from="1698393939760" duration="21000" />
-      <workItem from="1698676006023" duration="322000" />
-    </task>
-    <task id="LOCAL-00014" summary="Feat: seminar 1 homework Server">
-      <option name="closed" value="true" />
-      <created>1696268983595</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1696268983595</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Feat: seminar 1 homework Server">
-      <option name="closed" value="true" />
-      <created>1696269073511</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1696269073511</updated>
+      <workItem from="1698676006023" duration="1379000" />
     </task>
     <task id="LOCAL-00016" summary="Refactor: seminar 1 homework package gui">
       <option name="closed" value="true" />
@@ -559,15 +548,29 @@
       <option name="project" value="LOCAL" />
       <updated>1698676253769</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Feat: seminar 5 class Philosopher">
+      <option name="closed" value="true" />
+      <created>1698676335760</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1698676335760</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Feat: seminar 5 class State">
+      <option name="closed" value="true" />
+      <created>1698676417642</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1698676417642</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Feat: seminar 2 homework class Client" />
-    <MESSAGE value="Feat: seminar 2 homework class ClientGUI" />
     <MESSAGE value="Feat: seminar 2 homework Нихера препода код не работает" />
     <MESSAGE value="Feat: seminar 2 homework code after seminar, not work" />
     <MESSAGE value="Refactor: seminar 1 homework show message method" />
@@ -591,7 +594,9 @@
     <MESSAGE value="Refactor: seminar 4" />
     <MESSAGE value="Init: seminar 5" />
     <MESSAGE value="Feat: seminar 5 class fork" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 5 class fork" />
+    <MESSAGE value="Feat: seminar 5 class Philosopher" />
+    <MESSAGE value="Feat: seminar 5 class State" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: seminar 5 class State" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

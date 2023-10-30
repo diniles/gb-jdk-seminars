@@ -41,7 +41,7 @@ public class State {
             l.setAvailability(false);
             r.setAvailability(false);
             setState(id, PhilosopherState.EATING);
-            if (Main.DEBUG) {
+            if (Consts.DEBUG) {
                 printState(id);
             }
         } catch (InterruptedException e) {
@@ -60,7 +60,7 @@ public class State {
             r.setAvailability(true);
             cond[(id + 1) % philosophersCount].signalAll();
             cond[(id + philosophersCount - 1) % philosophersCount].signalAll();
-            if (Main.DEBUG) {
+            if (Consts.DEBUG) {
                 printState(id);
             }
         } finally {
